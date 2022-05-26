@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    width: 100%;
+    max-width: 700px;
+    max-height:1200px;
+    margin: 30px;
+    background: #222126;
+    font-weight: 500;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+        /* ------------- LEFT SIDE ------------- */
+.left{
+    background: #222126;
+    color: #fff;
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.left .profileImage img{
+    width: 100%;
+    height: 100%;
+}
+
+.left h3{
+    letter-spacing: 1px;
+}
+/* EDUCATION */
+.education{
+    align-items: center;
+    padding: 5px 0 0 40px;
+}
+
+.education h3{
+    padding: 20px 0 10px 0;
+    border-bottom: 2px solid #FFCC00;
+}
+
+.education h4{
+    padding-bottom: 5px;
+}
+.education p{
+    padding-bottom: 2px;
+}
+
+.major {
+    padding: 10px 0 0 15px;
+}
+/*END OF  EDUCATION */
+
+/* REFERENCE */
+.interests{
+    align-items: center;
+    padding: 10px 0 15px 40px;
+}
+
+.interests h3{
+    padding: 10px 0 10px 0;
+    border-bottom: 2px solid #FFCC00;
+}
+
+.interests h4{
+    padding-bottom: 5px;
+}
+.interests p{
+    padding-bottom: 2px;
+}
+
+.list {
+    padding: 10px 0 0 25px;
+}
+
+.list li{
+    padding: 5px;
+}
+/*END OF  REFERENCE */
+
+/*CONTACT*/
+.contact{
+    align-items: center;
+    padding: 0 0 40px 0;
+}
+
+.contact h4{
+    background: linear-gradient(to right, #FFCC00 0px,#FFCC00 40px,#292B2F 40px,#292B2F 100% ) ;
+    padding : 2px 0 3px 55px;
+}
+
+.contact p{
+    padding : 3px 10px 0 60px;
+    background: #222126;
+}
+.details {
+    padding: 10px 0 0 ;
+    
+}
+/*END OF CONTACT*/
+
+        /* ------------- RIGHT SIDE ------------- */
+
+.right{
+    background: white;
+    padding-top:60px;
+    font-size: 9px;
+}
+
+/*PROFILE NAME*/
+.profileName{
+    padding: 35px 50px;
+    background: #FFCC00;
+
+}
+
+.profileName h2{
+    letter-spacing: 2px;
+    padding-bottom: 8px;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.profileName #result-lname{
+    font-weight: 500;
+}
+
+
+
+.profileName p{
+    letter-spacing: 3px;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+/*END OF PROFILE NAME*/
+
+/*--------------------PERSONAL INFO--------------------*/
+
+.personalInfo {
+    padding: 10px 50px;
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.personalInfo h3{
+    font-weight: 600;
+    font-size: 15px;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid ;
+}
+
+.personalInfo p{
+    padding-top: 8px;
+}
+
+.aboutMe {
+    padding-top: 25px;
+}
+
+/*WORK EXPERIENCE*/
+.projects {
+    padding: 25px 0;}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+
+}
+
+.project h5{
+    font-weight: 600; 
+    font-size: 10px;
+}
+
+.time{
+    min-width: 120px;
+}
+
+.work h5{
+    padding-bottom: 3px;
+}
+/*END OF WORK EXPERIENCE*/
+
+/*SOFTWARE SKILL*/
+.skillList{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0 20px 120px;
+    font-size: 14px;
+}
+
+.skillList h5{
+    font-weight: 500;
+    padding: 13px 0;
+    min-width: 120px;
+}
+
+.skillItem {
+    list-style: none;
+}
+.Rskill{
+    padding-left: 40px;
+}
+.percent{
+    width: 100%;
+    background: #dbdada;
+    height: 3px;
+}
+
+.percent div{
+    height: 100%;
+    background: #222126;
+}
+/*END OF SOFTWARE SKILL*/
+
+/*--------------------END OF PERSONAL INFO--------------------*/
